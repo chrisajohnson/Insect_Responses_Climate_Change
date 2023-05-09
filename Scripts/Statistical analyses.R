@@ -198,7 +198,7 @@ points(g.data[g.data$Habitat=="Subtropical","Latitude"], g.data[g.data$Habitat==
 points(g.data[g.data$Habitat=="Temperate","Latitude"], g.data[g.data$Habitat=="Temperate","delta.model"], pch=19, cex=1.5, col="#785EF0")
 points(seq(Xmin,Xmax,1), coef(g.lat)[2]*seq(Xmin,Xmax,1) + coef(g.lat)[1], type="l", lwd=3, col="black")
 
-# DDE model predictions vs directly integrating TPCs (Fig. 4e)
+# DDE model predictions vs directly integrating TPCs (Fig. 4d)
 Xmin <- -5
 Xmax <- 0
 Ymin <- -5
